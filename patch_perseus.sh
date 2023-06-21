@@ -27,7 +27,7 @@ chmod +x apkeep
 # Download Azur Lane
 download_azurlane () {
     if [ ! -f "com.YoStarEN.AzurLane.xapk" ]; then
-    ./apkeep -a com.YoStarEN.AzurLane -d google-play -u 'tranhieuminh22082k5@gmail.com' -p lqmlontrau .
+    ./apkeep -a com.YoStarEN.AzurLane_fdroid -d f-droid .
     fi
 }
 
